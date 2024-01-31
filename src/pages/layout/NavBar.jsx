@@ -5,9 +5,13 @@ import {MdOutlineAccountCircle} from "react-icons/md"
 import Categories from './Categories'
 import {motion} from "framer-motion"
 import { Context } from '../../context/Context'
+import { NavLink } from 'react-router-dom'
 
 function NavBar() {
-    const {displayNavigation}=useContext(Context)
+    const {displayNavigation,setDisplayNavigation}=useContext(Context)
+    function closeOnLinkClick(){
+        setDisplayNavigation(false)
+    }
   return (
     <React.Fragment>
         <motion.div
@@ -24,17 +28,17 @@ function NavBar() {
             }
         }} initial="initial" animate={displayNavigation?'animate':'exit'}
          className='  border-r-2 border-gray-600 bg-white fixed top-0 w-2/4 h-screen py-2 flex flex-col gap-2 px-3'>
-            <section className=' gap-1 font-semibold flex items-center'>
+            <section onClick={closeOnLinkClick} className=' gap-1 font-semibold flex items-center'>
                 <AiOutlineHome/>
-                <p className=' text-[12px]'>Home</p>
+                <p className=' text-[12px]'><NavLink to={"/"}>Home</NavLink></p>
             </section>
-            <section className=' gap-1 font-semibold flex items-center'>
+            <section onClick={closeOnLinkClick} className=' gap-1 font-semibold flex items-center'>
                 <BsShop/>
-                <p className=' text-[12px]'>Products</p>
+                <p className=' text-[12px]'><NavLink to={"products"}>Products</NavLink></p>
             </section>
-            <section className='  gap-1 font-semibold flex items-center'>
+            <section onClick={closeOnLinkClick} className='  gap-1 font-semibold flex items-center'>
                 <MdOutlineAccountCircle/>
-                <p className=' text-[12px]'>Account</p>
+                <p className=' text-[12px]'><NavLink to={"login"}>Account</NavLink></p>
             </section>
             <hr />
             <Categories/>
