@@ -1,4 +1,4 @@
-import React, { useContext } from 'react'
+import { useContext } from 'react'
 import { motion } from 'framer-motion'
 import { Context } from '../../context/Context'
 function NavIcon() {
@@ -7,6 +7,7 @@ function NavIcon() {
 
     function handleNavigationTrigger(){
         setDisplayNavigation(!displayNavigation)
+        
     }
   return (
     <div className=' flex flex-col gap-1' onClick={handleNavigationTrigger}>
@@ -19,7 +20,7 @@ function NavIcon() {
             },exit:{
                 rotate:0,
             }
-        }} initial="initial" animate={displayNavigation?'animate':"exit"} className=' w-5 bg-black text-transparent h-0.5'>.</motion.div>
+        }} initial="initial" animate={displayNavigation?'animate':"exit"} className=' w-5 bg-white text-transparent h-0.5'>.</motion.div>
         <motion.div variants={{
             initial:{
                 rotate:0,
@@ -29,7 +30,7 @@ function NavIcon() {
             },exit:{
                 rotate:0,
             }
-        }} initial="initial" animate={displayNavigation?'animate':'exit'} className=' w-5 bg-black text-transparent h-0.5'>.</motion.div>
+        }} initial="initial" animate={displayNavigation?'animate':'exit'} className=' w-5 bg-white text-transparent h-0.5'>.</motion.div>
         <motion.div variants={{
             initial:{
                 opacity:1
@@ -38,7 +39,7 @@ function NavIcon() {
             },exit:{
                 opacity:1
             }
-        }} initial="initial" animate={displayNavigation?'animate':'exit'} className=' w-5 bg-black text-transparent h-0.5'>.</motion.div>
+        }} initial="initial" animate={displayNavigation?'animate':'exit'} className=' w-5 bg-white text-transparent h-0.5'>.</motion.div>
     </div>
   )
 }

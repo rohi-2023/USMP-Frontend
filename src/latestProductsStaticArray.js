@@ -32,59 +32,61 @@ export const latestProducts=[
         images:product1,
         name:"Bag",
         price:10000,
+        description:"This is the Description that would be written by the Seller when he/ she uploads a product to the Page",
         rating:Math.floor(Math.random()*5)
     },{
         id:2,
         images:product2,
         name:"Edge Control",
         price:2000,
+        description:"This is the Description that would be written by the Seller when he/ she uploads a product to the Page",
         rating:Math.floor(Math.random()*5)
     },{
         id:3,
         images:product3,
         name:"Hair Band",
-        price:500,
+        price:500,description:"This is the Description that would be written by the Seller when he/ she uploads a product to the Page",
         rating:Math.floor(Math.random()*5)
     },{
         id:4,
         images:product4,
-        name:"Laptop Bag",
+        name:"Laptop Bag",description:"This is the Description that would be written by the Seller when he/ she uploads a product to the Page",
         price:Math.floor(Math.random()*10000),
         rating:Math.floor(Math.random()*5)
     },{
         id:5,
         images:product5,
-        name:"Lip gloss",
+        name:"Lip gloss",description:"This is the Description that would be written by the Seller when he/ she uploads a product to the Page",
         price:Math.floor(Math.random()*500),
         rating:Math.floor(Math.random()*5)
     },{
         id:6,
         images:product6,
-        name:"Necklace",
+        name:"Necklace",description:"This is the Description that would be written by the Seller when he/ she uploads a product to the Page",
         price:Math.floor(Math.random()*3000),
         rating:4.2
     },{
         id:7,
         images:product7,
-        name:"Perfume",
+        name:"Perfume",description:"This is the Description that would be written by the Seller when he/ she uploads a product to the Page",
         price:Math.floor(Math.random()*5000),
         rating:Math.floor(Math.random()*5)
     },{
         id:8,
         images:product8,
-        name:"Shirt",
+        name:"Shirt",description:"This is the Description that would be written by the Seller when he/ she uploads a product to the Page",
         price:Math.floor(Math.random()*5000),
         rating:Math.floor(Math.random()*5)
     },{
         id:9,
         images:product9,
-        name:"Skirt",
+        name:"Skirt",description:"This is the Description that would be written by the Seller when he/ she uploads a product to the Page",
         price:Math.floor(Math.random()*5000),
         rating:Math.floor(Math.random()*5)
     },{
         id:10,
         images:product10,
-        name:"Watch",
+        name:"Watch",description:"This is the Description that would be written by the Seller when he/ she uploads a product to the Page",
         price:Math.floor(Math.random()*10000),
         rating:Math.floor(Math.random()*5)
     }
@@ -95,156 +97,157 @@ export const productArray2=[
         id:1,
         images:product1,
         name:"Bag",
+        description:"This is the Description that would be written by the Seller when he/ she uploads a product to the Page",
         price:10000,
         rating:Math.floor(Math.random()*5)
     },{
         id:2,
         images:product2,
-        name:"Edge Control",
+        name:"Edge Control",description:"This is the Description that would be written by the Seller when he/ she uploads a product to the Page",
         price:2000,
         rating:Math.floor(Math.random()*5)
     },{
         id:3,
         images:product3,
-        name:"Hair Band",
+        name:"Hair Band",description:"This is the Description that would be written by the Seller when he/ she uploads a product to the Page",
         price:500,
         rating:Math.floor(Math.random()*5)
     },{
         id:4,
         images:product4,
-        name:"Laptop Bag",
+        name:"Laptop Bag",description:"This is the Description that would be written by the Seller when he/ she uploads a product to the Page",
         price:Math.floor(Math.random()*10000),
         rating:Math.floor(Math.random()*5)
     },{
         id:5,
         images:product5,
-        name:"Lip gloss",
+        name:"Lip gloss",description:"This is the Description that would be written by the Seller when he/ she uploads a product to the Page",
         price:Math.floor(Math.random()*500),
         rating:Math.floor(Math.random()*5)
     },{
         id:6,
         images:product6,
-        name:"Necklace",
+        name:"Necklace",description:"This is the Description that would be written by the Seller when he/ she uploads a product to the Page",
         price:Math.floor(Math.random()*3000),
         rating:4.2
     },{
         id:7,
         images:product7,
-        name:"Perfume",
+        name:"Perfume",description:"This is the Description that would be written by the Seller when he/ she uploads a product to the Page",
         price:Math.floor(Math.random()*5000),
         rating:Math.floor(Math.random()*5)
     },{
         id:8,
         images:product8,
-        name:"Shirt",
+        name:"Shirt",description:"This is the Description that would be written by the Seller when he/ she uploads a product to the Page",
         price:Math.floor(Math.random()*5000),
         rating:Math.floor(Math.random()*5)
     },{
         id:9,
         images:product9,
-        name:"Skirt",
+        name:"Skirt",description:"This is the Description that would be written by the Seller when he/ she uploads a product to the Page",
         price:Math.floor(Math.random()*5000),
         rating:Math.floor(Math.random()*5)
     },{
         id:10,
         images:product10,
-        name:"Watch",
+        name:"Watch",description:"This is the Description that would be written by the Seller when he/ she uploads a product to the Page",
         price:Math.floor(Math.random()*10000),
         rating:Math.floor(Math.random()*5)
     },{
         id:11,
         images:product11,
-        name:"Bag",
+        name:"Bag",description:"This is the Description that would be written by the Seller when he/ she uploads a product to the Page",
         price:10000,
         rating:Math.floor(Math.random()*5)
     },{
         id:12,
         images:product12,
-        name:"Edge Control",
+        name:"Edge Control",description:"This is the Description that would be written by the Seller when he/ she uploads a product to the Page",
         price:2000,
         rating:Math.floor(Math.random()*5)
     },{
         id:13,
         images:product13,
-        name:"Hair Band",
+        name:"Hair Band",description:"This is the Description that would be written by the Seller when he/ she uploads a product to the Page",
         price:500,
         rating:Math.floor(Math.random()*5)
     },{
         id:14,
         images:product14,
-        name:"Laptop Bag",
+        name:"Laptop Bag",description:"This is the Description that would be written by the Seller when he/ she uploads a product to the Page",
         price:Math.floor(Math.random()*10000),
         rating:Math.floor(Math.random()*5)
     },{
         id:15,
         images:product15,
-        name:"Lip gloss",
+        name:"Lip gloss",description:"This is the Description that would be written by the Seller when he/ she uploads a product to the Page",
         price:Math.floor(Math.random()*500),
         rating:Math.floor(Math.random()*5)
     },{
         id:16,
         images:product16,
-        name:"Necklace",
+        name:"Necklace",description:"This is the Description that would be written by the Seller when he/ she uploads a product to the Page",
         price:Math.floor(Math.random()*3000),
         rating:4.2
     },{
         id:17,
         images:product17,
-        name:"Perfume",
+        name:"Perfume",description:"This is the Description that would be written by the Seller when he/ she uploads a product to the Page",
         price:Math.floor(Math.random()*5000),
         rating:Math.floor(Math.random()*5)
     },{
         id:18,
         images:product18,
-        name:"Shirt",
+        name:"Shirt",description:"This is the Description that would be written by the Seller when he/ she uploads a product to the Page",
         price:Math.floor(Math.random()*5000),
         rating:Math.floor(Math.random()*5)
     },{
         id:19,
         images:product19,
-        name:"Skirt",
+        name:"Skirt",description:"This is the Description that would be written by the Seller when he/ she uploads a product to the Page",
         price:Math.floor(Math.random()*5000),
         rating:Math.floor(Math.random()*5)
     },{
         id:20,
         images:product20,
-        name:"Watch",
+        name:"Watch",description:"This is the Description that would be written by the Seller when he/ she uploads a product to the Page",
         price:Math.floor(Math.random()*10000),
         rating:Math.floor(Math.random()*5)
     },{
         id:21,
         images:product21,
-        name:"Watch",
+        name:"Watch",description:"This is the Description that would be written by the Seller when he/ she uploads a product to the Page",
         price:Math.floor(Math.random()*10000),
         rating:Math.floor(Math.random()*5)
     },{
         id:22,
         images:product22,
-        name:"Watch",
+        name:"Watch",description:"This is the Description that would be written by the Seller when he/ she uploads a product to the Page",
         price:Math.floor(Math.random()*10000),
         rating:Math.floor(Math.random()*5)
     },{
         id:23,
         images:product23,
-        name:"Watch",
+        name:"Watch",description:"This is the Description that would be written by the Seller when he/ she uploads a product to the Page",
         price:Math.floor(Math.random()*10000),
         rating:Math.floor(Math.random()*5)
     },{
         id:24,
         images:product24,
-        name:"Watch",
+        name:"Watch",description:"This is the Description that would be written by the Seller when he/ she uploads a product to the Page",
         price:Math.floor(Math.random()*10000),
         rating:Math.floor(Math.random()*5)
     },{
         id:25,
         images:product25,
-        name:"Watch",
+        name:"Watch",description:"This is the Description that would be written by the Seller when he/ she uploads a product to the Page",
         price:Math.floor(Math.random()*10000),
         rating:Math.floor(Math.random()*5)
     },{
         id:26,
         images:product26,
-        name:"Watch",
+        name:"Watch",description:"This is the Description that would be written by the Seller when he/ she uploads a product to the Page",
         price:Math.floor(Math.random()*10000),
         rating:Math.floor(Math.random()*5)
     }

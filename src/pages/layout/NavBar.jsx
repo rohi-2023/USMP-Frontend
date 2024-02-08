@@ -27,19 +27,25 @@ function NavBar() {
                 x:-1000
             }
         }} initial="initial" animate={displayNavigation?'animate':'exit'}
-         className='  border-r-2 border-gray-600 bg-white fixed top-0 w-2/4 h-screen py-2 flex flex-col gap-2 px-3'>
-            <section onClick={closeOnLinkClick} className=' gap-1 font-semibold flex items-center'>
-                <AiOutlineHome/>
-                <p className=' text-[12px]'><NavLink to={"/"}>Home</NavLink></p>
-            </section>
-            <section onClick={closeOnLinkClick} className=' gap-1 font-semibold flex items-center'>
-                <BsShop/>
-                <p className=' text-[12px]'><NavLink to={"products"}>Products</NavLink></p>
-            </section>
-            <section onClick={closeOnLinkClick} className='  gap-1 font-semibold flex items-center'>
-                <MdOutlineAccountCircle/>
-                <p className=' text-[12px]'><NavLink to={"login"}>Account</NavLink></p>
-            </section>
+         className='  border-r-2 border-gray-600 text-xl overflow-auto bg-white fixed w-5/6 top-0  h-screen py-2 flex flex-col gap-2 px-3'>
+            <NavLink to={"/"}>
+                <section onClick={closeOnLinkClick} className='  gap-1 font-semibold flex items-center'>
+                    <AiOutlineHome/>
+                    <p className=' text-[12px]'>Home</p>
+                </section>
+            </NavLink>
+            <NavLink to={"products"}>
+                <section onClick={closeOnLinkClick} className=' border-t-[1px] border-b-[1px] py-2 gap-1 font-semibold flex items-center'>
+                    <BsShop/>
+                    <p className=' text-[12px]'>Products</p>
+                </section>
+            </NavLink>
+            <NavLink to={"login"}>
+                <section onClick={closeOnLinkClick} className='  gap-1 font-semibold flex items-center'>
+                    <MdOutlineAccountCircle/>
+                    <p className=' text-[12px]'>Account</p>
+                </section>
+            </NavLink>
             <hr />
             <Categories/>
         </motion.div>
