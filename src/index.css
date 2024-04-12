@@ -5,3 +5,21 @@
 .auth.active{
     border-bottom: 2px solid black;
 }
+/* @media (min-width:990px) and (max-width:1500px) {
+        .slider-container{
+            border:  1px solid red;
+            width: 1000px;
+            height:1000px;
+        }
+} */
+
+@media screen and ( min-width:900px) {
+        .slider-container{
+            height: 400px;
+            margin: 10px 10px ;
+        }
+        .imgT{
+            height: 400px;
+        }
+
+}

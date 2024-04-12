@@ -1,28 +1,31 @@
-import React from 'react'
-import {latestProducts} from "../../latestProductsStaticArray"
-// import HomeCategories from './HomeCategories'
+import React, { Suspense } from 'react'
+import HomePageProducts from './HomePageProducts'
+import Slider from "../../Components/Sliders"
+import HomePageIcons from './HomePageIcons'
+import Steps from './Steps'
 
 function Home() {
   return (
     <React.Fragment>
-        <div>
-          {/*  */}
-          <p className=' text-center font-semibold  text-xl bg-black text-white   '>Available Products</p>
-          <div className=" grid grid-cols-2 gap-5 px-3 py-5">
-
-            {latestProducts.slice(0,4).map(function(eachProduct){
-              return (
-                <div className=' bg-gray-100 shadow-md py-3  flex flex-col  ' key={eachProduct.id}>
-                  <img src={eachProduct.images} alt="" className=' justify-center self-center h-32 w-32'  />
-                  <div className=' py-1 px-3 flex flex-col'>
-                    <p className=' font-mono font-semibold '>{eachProduct.name}</p>
-                    <p className=' text-[12px] font-semibold'>₦{eachProduct.price.toLocaleString()}</p>
-                  </div>
-                </div>
-              )
-            })}
-          </div>
-        </div>
+        <main>
+          <header>
+            <p className=' text-center font-semibold  text-xl bg-black text-white  pb-3 sm:hidden'>Available Products</p>
+          </header>
+          <section>
+            <Slider/>
+          </section>
+          <section>
+            <HomePageIcons/>
+          </section>
+          <section>
+            <Suspense fallback={<p>loading...</p>}>
+              <HomePageProducts/>
+            </Suspense>
+          </section>
+          <section>
+            <Steps/>
+          </section>
+        </main>
     </React.Fragment>
   )
 }

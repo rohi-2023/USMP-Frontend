@@ -10,7 +10,7 @@ function NavIcon() {
         
     }
   return (
-    <div className=' flex flex-col gap-1' onClick={handleNavigationTrigger}>
+    <div className=' cursor-pointer flex flex-col gap-1' onClick={handleNavigationTrigger}>
         <motion.div variants={{
             initial:{
                 rotate:0,

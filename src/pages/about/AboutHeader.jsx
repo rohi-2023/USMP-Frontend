@@ -11,12 +11,12 @@ function AboutHeader() {
 
   return (
     <React.Fragment>
-        <div className=' text-xl grid grid-cols-[1fr,1.5fr] uppercase  px-3 py-3 text-white bg-black'>
+        <div className=' text-xl  uppercase  px-3 py-3 text-white bg-black'>
             <div>
-                <p onClick={handleBack} className=' cursor-pointer text-2xl '>←</p>
+                <p onClick={handleBack} className=' w-fit  cursor-pointer text-2xl '>←</p>
             </div>
             <div>
-                <p>About Us</p>
+                <p className=' font-semibold text-center'>About Us</p>
             </div>
         </div>
     </React.Fragment>

@@ -11,16 +11,16 @@ function Categories() {
   return (
     <React.Fragment>
         <div>
-            <p className=' font-semibold text-sm  '>Categories</p>
-            <section className=''>
-                <p className=' text-lg flex items-center gap-1 px-2 font-semibold py-0.5'><PiShirtFoldedLight/><span className=' text-[12px]'>Men&apos;s Fashion</span></p>
-                <p className='text-lg flex items-center gap-1 px-2 font-semibold  py-0.5'><GiAmpleDress/><span className=' text-[12px]'>Women&apos;s Fashion</span></p>
-                <p className=' flex items-center gap-1 px-2 font-semibold text-lg py-0.5'><PiBagSimpleBold/><span className=' text-[12px]'>Bags</span></p>
-                <p className=' flex items-center gap-1 px-2 font-semibold text-lg py-0.5'><FiWatch/><span className=' text-[12px]'>Watches</span></p>
-                <p className=' flex items-center gap-1 px-2 font-semibold text-lg  py-0.5'><MdOutlineFaceRetouchingNatural/><span className=' text-[12px]'>Beauty</span></p>
-                <p className=' flex items-center gap-1 px-2 font-semibold text-lg py-0.5'><GiDelicatePerfume/><span className=' text-[12px]'>Fragrance</span></p>
+            <p className=' font-semibold text-base  uppercase  pt-2 pb-4'>Categories</p>
+            <section className=' capitalize flex flex-col gap-4'>
+                <p className=' text-xl flex items-center space-x-3  px-2 font-semibold py-0.5'><PiShirtFoldedLight/><span className=' text-sm font-normal '>Men&apos;s Fashion</span></p>
+                <p className=' text-xl flex items-center space-x-3 px-2 font-semibold  py-0.5'><GiAmpleDress/><span className=' text-sm font-normal '>Women&apos;s Fashion</span></p>
+                <p className=' flex items-center space-x-3 px-2 font-semibold  py-0.5'><PiBagSimpleBold/><span className=' text-sm font-normal '>Bags</span></p>
+                <p className=' flex items-center space-x-3 px-2 font-semibold  py-0.5'><FiWatch/><span className=' text-sm font-normal '>Watches</span></p>
+                <p className=' flex items-center space-x-3 px-2 font-semibold   py-0.5'><MdOutlineFaceRetouchingNatural/><span className=' text-sm font-normal '>Beauty</span></p>
+                <p className=' flex items-center space-x-3 px-2 font-semibold  py-0.5'><GiDelicatePerfume/><span className=' text-sm font-normal '>Fragrance</span></p>
                 <NavLink to={"/contact"}>
-                <p className=' border-t-[1px]  flex items-center gap-1 px-2 font-semibold my-2 text-lg py-1'><HiPhone/><span className=' text-[12px]'>Contact Us</span></p>
+                  <p className=' border-t-[1px]  flex items-center gap-3 px-2 font-semibold my-2 text-lg py-1'><HiPhone/><span className=' text-sm font-normal '>Contact Us</span></p>
                 </NavLink>
             </section>
             <section></section>

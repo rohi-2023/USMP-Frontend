@@ -9,12 +9,12 @@ function FaqHeader() {
   }
   return (
     <React.Fragment>
-        <div className=' text-xl grid grid-cols-[1fr,1.5fr] uppercase  px-3 py-3 text-white bg-black'>
+        <div className=' text-xl   uppercase  px-3 py-3 text-white bg-black'>
          <div>
           <p onClick={handleBack} className=' cursor-pointer text-2xl '>←</p>
         </div>
         <div>
-          <p className=''>FAQ&apos;S</p>
+          <p className=' font-semibold text-center'>FAQ&apos;S</p>
         </div>
         </div>
     </React.Fragment>

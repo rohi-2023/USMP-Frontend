@@ -1,5 +1,5 @@
 import React from 'react'
-import logo from "../../image/usmpEditImage.png"
+import logo from "../../image/images/usmpEditImage.png"
 import NavIcon from './NavIcon'
 import {FaCartShopping} from "react-icons/fa6"
 import SearchBar from './SearchBar'
@@ -18,9 +18,9 @@ function Header() {
           <div className=' items-center flex gap-3'>
             <NavIcon/>
           </div>
-            <img src={logo} alt="Logo" className=" w-24" />
+            <img src={logo} alt="Logo" className=" lg:w-32 md:w-28 w-24" />
           <div className=' text-white flex'>
-            <FaCartShopping onClick={handleToCartPage} className=' text-2xl'/>
+            <FaCartShopping onClick={handleToCartPage} className=' text-2xl  md:text-3xl lg:text-4xl '/>
             <p className=' bg-red-600 -translate-x-2 w-3 h-3 text-white font-semibold rounded-full '></p>
           </div>
       </div>
